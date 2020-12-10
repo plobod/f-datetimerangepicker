@@ -193,7 +193,7 @@ class _PickerWidgetState extends State<PickerWidget>
         body: Stack(
           children: <Widget>[
             Container(
-              height: 320,
+              height: 245,
               alignment: Alignment.topCenter,
               child: TabBarView(
                 controller: _tabController,
@@ -228,6 +228,7 @@ class _PickerWidgetState extends State<PickerWidget>
               ),
             ),
             Container(
+              margin: EdgeInsets.only(top: 0.0),
               alignment: Alignment.bottomCenter,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.end,
